@@ -1,2 +1,1 @@
-# maya-script
-case-by-case-tools
+根據不同項目需求而寫的一些小工具，歸檔用。
