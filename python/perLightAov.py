@@ -1,6 +1,6 @@
 #PER LIGHT AOV SETUP.py
 
-'''Per light aov setup for arnold.'''
+'''Arnold per light aov setup for Beached.'''
 import pymel.core as pm
 import mtoa
 
