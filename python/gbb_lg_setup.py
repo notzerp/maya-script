@@ -35,5 +35,5 @@ def setupLs():
                                  '{}_{}'.format(light, type_name[numb]), type='string')
                     cmds.rename(vrLsNode, 'vrayRE_{}_{}'.format(light, type_name[numb]))
 
-
+                cmds.warning('Successfully created lightselect for each selected light! UwU')
 setupLs()
