@@ -1,4 +1,4 @@
-# transferUv_v0.2
+# transferUv_v0.3
 # WIP version
 import pymel.core as pm
 
@@ -6,7 +6,7 @@ source_compareList = []
 target_compareList = []
 
 sel = pm.selected()
-pm.delete(sel, ch=True)
+pm.delete(sel[0], ch=True)
 
 if len(sel) != 2:
     pm.warning('Nope')
